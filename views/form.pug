@@ -1,0 +1,9 @@
+body
+  form(action='/new', method='POST')
+    p
+      | text: 
+      input(type='text', name='text', value='')
+      br
+      | user: 
+      input(type='text', name='user', value='')
+    input(type='submit', value='Submit')
